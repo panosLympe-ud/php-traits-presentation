@@ -11,7 +11,7 @@ trait UserTrait
     public function setName($name)
     {
         $this->name = $name;
-        $this->setCreatedAt(); // κάθε φορά που αλλάζει το όνομα, ορίζουμε createdAt
+        $this->setCreatedAt();
     }
 
     public function getName()
